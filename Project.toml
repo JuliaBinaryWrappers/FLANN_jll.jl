@@ -1,14 +1,17 @@
 name = "FLANN_jll"
 uuid = "48b6455b-4cf5-590d-a543-2d733c79e793"
-version = "1.9.1+0"
+version = "1.9.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Lz4_jll = "5ced341a-0733-55b8-9ab6-a4889d929147"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
 
 [compat]
-JLLWrappers = "1.1.0"
-julia = "1.0"
+JLLWrappers = "1.7.0"
+julia = "1.10"
+Libdl = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"

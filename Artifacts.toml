@@ -1,236 +1,316 @@
 [[FLANN]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4a9c2cecb4782453419f5d8efc08ea3e9c95e508"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "abfbfca5b06b181cb96afe4a23693fb1dabcc233e0e0b9dfa67ac8edc1ea8595"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.aarch64-linux-gnu-cxx03.tar.gz"
-[[FLANN]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8e63c4f5c38ab91ca66bebf281273291c355370f"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "ece9e5b910377b0f4906731f7157043799f6672c2709ea82b7541d96fe07c84a"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.aarch64-linux-gnu-cxx11.tar.gz"
-[[FLANN]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3aecef48c2172205f70308dd6cedb65295e2f76c"
-libc = "musl"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "bb38334d37a2946682b1d8fa0eae4eb889c9642776ed4f3944b5b2e38df66cac"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.aarch64-linux-musl-cxx03.tar.gz"
-[[FLANN]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a9b95f779880d45a4dd5d8f682e72465043fcb83"
-libc = "musl"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "0e4916f28cdf2260545517e732aab66429f2f7fa5e8e71d15acc95033d9e6f91"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.aarch64-linux-musl-cxx11.tar.gz"
-[[FLANN]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "64bde3502e807fdf2a9b7ecb5fe9eca5b7cad40a"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "d3b7d4e5a25e8a931c2d09f281b418445d363c498a0f815180739f4d281f3cd4"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[FLANN]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "a5fe2b0d8081fc2339bfa2fe61304978d669f0b0"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "5e4ae8bbf94740b28b515631e4f96c52e57aa2d21104ecfa0ade78e4ad6091fb"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[FLANN]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ad88d88c6b0c411194f107e98f23893de78b5be6"
-libc = "musl"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "29c8a7c2eebb0f8b8ff0bf1a32db75955aedb78de45423c92f3800793ddfebdc"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[FLANN]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "18aade2bfd70d1c897cbfa1eb58a23ead2336f2d"
-libc = "musl"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "b52490b16eaca6037c758037e5d1ddd6f041b9e0e170493be9469398d4737505"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[FLANN]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "550a50e12be5438ab15992bf6d8009fd6d848523"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "59f77b178c95f7f58b54c2ecfd99799574d5e7fa8b25d64dac4456ea3c952cf2"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.i686-linux-gnu-cxx03.tar.gz"
-[[FLANN]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "bc14379663073c3542e3d44ea1bf93fd2c9bb4ce"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "1707cfce8cc2d100fb3c94ae4c83de6a0348a0f4bf7eb5c2bfa05756f98d05ba"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.i686-linux-gnu-cxx11.tar.gz"
-[[FLANN]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2cbf619e6401c45ef97bda8d3b4a2530d51ed105"
-libc = "musl"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "77290c490fc0a639618fb3b40d8c707b7ef2b720bb4f6c427ff63687b2a86180"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.i686-linux-musl-cxx03.tar.gz"
-[[FLANN]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "783bf9959a023f539eec4ea0b48c917e03462fc9"
-libc = "musl"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "6ddc77f1570f81f2fffd0d27c06303f00f36905ee49af26428ae9fc1951568ca"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.i686-linux-musl-cxx11.tar.gz"
-[[FLANN]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "cdb9a72898393bc8e67bc97da041ab7d3d75a2ce"
-os = "windows"
-
-    [[FLANN.download]]
-    sha256 = "2eff7752b326022feeba86d8612dbfa016847838b999e9fac72a04dba189506e"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.i686-w64-mingw32-cxx03.tar.gz"
-[[FLANN]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "199e560aacecb45ff3d098442f7699ad2d908dcb"
-os = "windows"
-
-    [[FLANN.download]]
-    sha256 = "8ffb597e44e659ce1f3af06e8453bfd403746d485a9be26bba38b8f365bf7576"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.i686-w64-mingw32-cxx11.tar.gz"
-[[FLANN]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "570cf823b4f507904d025b0562687e403f67f94a"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "a9261672678589d91227d505d4655616585fd5e117dae0fcc769445518dbfae3"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[FLANN]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "f60f459810333b605c1d2ce836d33d878d0aac4e"
-libc = "glibc"
-os = "linux"
-
-    [[FLANN.download]]
-    sha256 = "308c6becb23660211b5d24ed930ba5d2e5318bd3bbbf2c5fd7c7b403b6d8b178"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[FLANN]]
-arch = "x86_64"
-git-tree-sha1 = "c06046b1d4b7bf78f6692a927e5a4fed2ec18e90"
+git-tree-sha1 = "58d61b241b16894d6fab53100a8a718164117ed9"
 os = "macos"
 
     [[FLANN.download]]
-    sha256 = "69a8b451f472553c3395f01e123fc3e2d34e0ddbee06a8a5f35bcb19f931b92f"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "191f81c7cf1e067c785505293297059c8ef4f644f4cfb3fb8fe8b9961e774d7f"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.aarch64-apple-darwin.tar.gz"
 [[FLANN]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "019a4835c760a8562538537fab751273f2a6c8df"
+git-tree-sha1 = "1209053bbcb3dccb9f0982133881fd6bf7cc5617"
 libc = "glibc"
 os = "linux"
 
     [[FLANN.download]]
-    sha256 = "78de5be325b50323e5031f8488926e87dac1a3bcdc0fd73e287bdc9c66acdd6d"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "19b6881874ccf5ae8806f654b388545a33de7be4f816e2550e4d8254251698f4"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.aarch64-linux-gnu-cxx03.tar.gz"
 [[FLANN]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7e8cdeb6d772f56db880b31d2b27a38280efc8a6"
+git-tree-sha1 = "51dd09a427ad0f33b63841058131c1f6f51b41c7"
 libc = "glibc"
 os = "linux"
 
     [[FLANN.download]]
-    sha256 = "f23fce225f44da4a65d79ce047fe2d7b0c941d9db00f65c78cb96eb0b7f21c08"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "92f26cf3c504cdf380edf57dd4e2090e57b9affb8edd005cabd8f1e2f039c6f2"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.aarch64-linux-gnu-cxx11.tar.gz"
 [[FLANN]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d15c610a2e741ae4211a25a50a51a075dca3f105"
+git-tree-sha1 = "6dd35fd21c6e042584d3c037e80fbe1ffafb67f8"
 libc = "musl"
 os = "linux"
 
     [[FLANN.download]]
-    sha256 = "6d6ff3b599e7ae5212e163eafac180da35da1ced4c2aa5d5698aaec874f38ce7"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "150edc07c296908d2a39097422a5baa745d6ee0fb1e6eae2cb493156e0a93736"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.aarch64-linux-musl-cxx03.tar.gz"
 [[FLANN]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f02525f06da228dcfb285d1d91e80f8af6808025"
+git-tree-sha1 = "1763bce741c1d021c8376c2080999f34a769b3c4"
 libc = "musl"
 os = "linux"
 
     [[FLANN.download]]
-    sha256 = "46038930fec3c06e6299ba159b245f3f323daf0cca7b54b9ab823617f411aacb"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "493f26d0d9f9170b49ea9517a8e7709389e37d3632b7197bffe603cb65d35230"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.aarch64-linux-musl-cxx11.tar.gz"
 [[FLANN]]
-arch = "x86_64"
-git-tree-sha1 = "6422107f877914517c6cf531eb234ccf970d1122"
+arch = "aarch64"
+git-tree-sha1 = "13823d8af286d50ddd73fd994aa26dcc41be7d2c"
 os = "freebsd"
 
     [[FLANN.download]]
-    sha256 = "88cfdac054324a1798d14a2b5e34cb8fac2a2e1a59b83b4f549e579e393dc511"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "19cbfbff760cf84d7ab29bf8c2e73b32a0a5b34ee357749dc103292345963d51"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.aarch64-unknown-freebsd.tar.gz"
+[[FLANN]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "af9eecd6537e1bd6c16b8198cfccbc1e1bbacfc6"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "9dbf45d73189bb6a4e072e63c22e921aeee0718045c088050196b7e3d95066f8"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[FLANN]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4682a80bafdf09021ed750471448bfdc550fa832"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "a49384ce585902568ecf11cecef36050bff9ab92d6808bf1bc41e65d7d6aec7a"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[FLANN]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fcc8023e59b52b82ee70a3bb14dc66476dca91e4"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "9cb1ffc7b763350fe0c20955c304abe8b5fb0f316406ab7a9313cef58c00d0f7"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[FLANN]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "db2adf98cdc7318a1726a9f4d69ca539192e0b86"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "2a341d40ee0403f9bef403c75fb35f9b00793598638ae6297cedbf0b5cf77de6"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[FLANN]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "588d481800a602a7b72d6bf43370e0b4d4068f49"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "d98dd4c78a5436ef366de340fd569e02d59f0d922a8b34a5f1a4005f3d16cf75"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[FLANN]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6bbd26efee4ba5a99285da6f5f3307aa6e36ef41"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "dff00c7b7defbdaae6509d1b17b0b43c110a932b0fd19008b98d1925b38e71d3"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[FLANN]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6a945b5ba6d9d1a29b8fbfb4e9eb58471ca8a6c2"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "673bb8d8f540df2ae70c217c95d7acdbd1b27b3fdc018157593bce4ca6600487"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[FLANN]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "34005613917ece578d79763011570de933b1ef43"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "5d63eca988c33f1f3bbfc0d28bea53397884bed598d89c767bee6e15bf470bb1"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[FLANN]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "21f7fabdefcc46f47b081d5b9c2c30b85e2ad8a9"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "135d7778a6d45449ec5ec32e8fa23a19f384d7abd60e6a240411b830080ad385"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.i686-linux-gnu-cxx03.tar.gz"
+[[FLANN]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "78aa79e0b3e0d915b8e819118235dd32be244899"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "a7ae5893dbcb14172a072f50fadd25636f2c71cd907a66661267e8225a2e2a24"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.i686-linux-gnu-cxx11.tar.gz"
+[[FLANN]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f3304d98b06a50063cb89b868fef3982651d0184"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "10636486bf7dc20244eee116e577bfd8042769cf0802726a172a079d010304d9"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.i686-linux-musl-cxx03.tar.gz"
+[[FLANN]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0d2d6b5bbf961ed959b22a72ad0a552c64c2715a"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "a0ab99b4afccde1676e2a7b7d00fe560c4624e116e19cee22e87aaa8abddc485"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.i686-linux-musl-cxx11.tar.gz"
+[[FLANN]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a27bf3f5d0693181e59c5a4733d0d9ef6d5a07dc"
+os = "windows"
+
+    [[FLANN.download]]
+    sha256 = "a23c5aedea9aff99cd8114736ba959b9e6694158cbd0196a77d05dc49a0367b1"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.i686-w64-mingw32-cxx03.tar.gz"
+[[FLANN]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "257e5ba2c283618013844ef34b970634ab616c1b"
+os = "windows"
+
+    [[FLANN.download]]
+    sha256 = "c7de47120846dc520b6e7f7a279ce77ab5742c54301ad0f1a65646c21a925174"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.i686-w64-mingw32-cxx11.tar.gz"
+[[FLANN]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9bb223f39135e5cc8be2e1a4ac5700de02a5f81f"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "1a7ab342bc32c86d971ab356150887bd9b07d19e9c0a94015ff4420446f7d31b"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[FLANN]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6120b846990e9ad2d49af2b07904e9f48fc99fd0"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "31e2862ecb708d42bbcedcd1e71c6b4ee708ea1d2e77da25ba62314839b5f5ef"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[FLANN]]
+arch = "riscv64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "57b929f02f9801e19248159ad576873c06fae220"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "058e90fe4adf1cbbd65f977a44fd52a857d25d607a7f028a2ee6b6a0660b77b8"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.riscv64-linux-gnu-cxx03.tar.gz"
+[[FLANN]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b3cf114282c35cbdaeba4f0451292421f36af261"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "8d0f2b12f6b63dd747ac564c85d43aaf1d97770f34fd635f9f7eface384683a4"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.riscv64-linux-gnu-cxx11.tar.gz"
+[[FLANN]]
+arch = "x86_64"
+git-tree-sha1 = "376d5ffae727904738b99fb5ff60138cd052ecf7"
+os = "macos"
+
+    [[FLANN.download]]
+    sha256 = "2508123156964232e07f53b0e863336d4b938da40fc51b7b71fc8c477e32d339"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-apple-darwin.tar.gz"
 [[FLANN]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "91f3b59f860aaf3ff242fdd53035d9518e9f14a8"
-os = "windows"
+git-tree-sha1 = "8f3dfc95d2e4d8100c91daac18a1f5d574d53366"
+libc = "glibc"
+os = "linux"
 
     [[FLANN.download]]
-    sha256 = "6c7d80cd7f94160bd7d96588b5ccd11b3e31cf2b2f328707719ec4f8d92fd3eb"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "efb9f2f3bd9811df178824824c7a99b4dcd1829d4f548c0ac2de23b3dbe95f7f"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-linux-gnu-cxx03.tar.gz"
 [[FLANN]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "542689efee801c98e716edac775757d9b0816521"
+git-tree-sha1 = "2e9d4dd69734b2b94b50f3251d59fb731e4bed40"
+libc = "glibc"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "188d9bf5c5c4eba22d4a1d8a9ba0f7cd90b1c95b7e8f506a0f884bbe8cdb613c"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-linux-gnu-cxx11.tar.gz"
+[[FLANN]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ca2b1f6f1870a83c4f7d6193f54cd868317d8c04"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "b464de63b048a7770bf4f457023b0de572d6c48ad9e54a5300423acd44847519"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-linux-musl-cxx03.tar.gz"
+[[FLANN]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bdf605b7ff5e79ab0db530fcc733b970772dcb2d"
+libc = "musl"
+os = "linux"
+
+    [[FLANN.download]]
+    sha256 = "315a735e5fd9709bf8a8390cd88f6f7592b5316b8b1069a467d8d6664f2a09b5"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-linux-musl-cxx11.tar.gz"
+[[FLANN]]
+arch = "x86_64"
+git-tree-sha1 = "a48201ea9a6599a93cdcb7291fe7a7e0ee530afe"
+os = "freebsd"
+
+    [[FLANN.download]]
+    sha256 = "9bda5784a04bbeae3ccf6105d6b118bf008bbbd843b6174f8cabc1e9cad7ce45"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-unknown-freebsd.tar.gz"
+[[FLANN]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c3185ce32f9842f49ffb83e3a5cc8fbfed78e3b6"
 os = "windows"
 
     [[FLANN.download]]
-    sha256 = "e588eacd9e49793ea475be1314290869e2074768267c8766fda69718bfacc48f"
-    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.1+0/FLANN.v1.9.1.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "975cb4b98e6f79040a01a9fc5ee768825115d92ccc8527c29d6a16df6e481aeb"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-w64-mingw32-cxx03.tar.gz"
+[[FLANN]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "28ce23032ad4700037166c4f1e5484c457e63d82"
+os = "windows"
+
+    [[FLANN.download]]
+    sha256 = "f5a3789ebbd1f6058b6716cd74eba23aa5fd919ed541cf4c6ab5faa3ab459b22"
+    url = "https://github.com/JuliaBinaryWrappers/FLANN_jll.jl/releases/download/FLANN-v1.9.2+0/FLANN.v1.9.2.x86_64-w64-mingw32-cxx11.tar.gz"

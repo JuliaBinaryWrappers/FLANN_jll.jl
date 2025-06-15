@@ -2,11 +2,12 @@
 export libflann, libflann_cpp
 
 using CompilerSupportLibraries_jll
+using Lz4_jll
 JLLWrappers.@generate_wrapper_header("FLANN")
 JLLWrappers.@declare_library_product(libflann, "libflann.dll")
 JLLWrappers.@declare_library_product(libflann_cpp, "libflann_cpp.dll")
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, Lz4_jll)
     JLLWrappers.@init_library_product(
         libflann,
         "bin\\libflann.dll",
